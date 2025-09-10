@@ -8,7 +8,7 @@ import Tendences from './components/MovieTendence'
 import PreguntasFrecuentes from './components/Questions'
 
 import Footer from './components/Footer'
-import EmpezarNetflix from './components/StartÑetflix'
+import EmpezarNetflix from './components/StartWebMedia'
 function App() {
   
 
