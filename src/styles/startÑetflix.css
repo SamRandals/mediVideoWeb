@@ -1,0 +1,113 @@
+
+.input__email-container-two{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-self: center;
+  width: 550px;
+  height: 55px;
+  
+}
+.input__email{
+  height: 100%;
+  flex-grow: 4;
+  border-radius: 5px;
+  padding-left: 15px;
+  background-color: transparent;
+  border: 2px solid #222;
+  color: #fff;
+}
+.textPlaceHolderAnimation{
+  display: flex;
+  position: absolute;
+  left: 10px;
+  color: #fff;
+  width: fit-content;
+}
+.send-button{
+  height: 100%;
+  margin-left: 10px;
+  flex-grow: 1;
+  border: none;
+  border-radius: 5px;
+  background-color: #0D7D1C;
+  color: #fff;
+  font-size: 20px;
+}
+
+.MoveUp{
+  animation: toMoveUp .2s  ease-in forwards;
+}
+.MoveDown{
+  animation: toMoveDown .2s ease-in forwards;
+}
+/* Animations */
+@keyframes toMoveUp {
+  0% {
+    bottom: 10px;
+    font-size: 16px;
+  }
+  25% {
+    bottom: 15px;
+     font-size: 15px;
+  }
+  50% {
+    bottom: 20px;
+     font-size: 15.5px;
+  }
+  75% {
+    bottom: 25px;
+     font-size: 15.8px;
+  }
+  100% {
+    bottom: 36px;
+    
+    font-size: 14px;
+  }
+}
+
+@keyframes toMoveDown {
+  0% {
+    bottom: 20px;
+  }
+  25% {
+    bottom: 18px;
+  }
+  50% {
+    bottom: 15px;
+  }
+  75% {
+    bottom: 12px;
+  }
+  100% {
+    bottom: 5px;
+  }
+}
+
+
+/* Media queryes */
+
+@media screen and (max-width:600px){
+  .input__email-container-two{
+    width: 400px;
+    
+  }
+}
+@media screen and (max-width:450px){
+  .input__email-container-two{
+    width: 300px;
+    
+  }
+  .send-button{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:360px){
+  .input__email-container-two{
+    width: 250px;
+    
+  }
+  .send-button{
+    font-size: 10px;
+  }
+}

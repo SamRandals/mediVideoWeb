@@ -1,0 +1,44 @@
+.faq {
+  max-width: 82%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+details {
+    display: flex;
+    flex-direction: column;
+    ;
+  background: #2d2d2d;
+  margin-bottom: 8px;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  
+  
+}
+
+summary {
+  list-style: none;
+  width: 100%;
+  position: relative;
+  font-size: 22px;
+  color: white;
+}
+
+summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  font-size: 22px;
+  transition: transform 0.2s;
+}
+
+details[open] summary::after {
+  transform: rotate(45deg); /* el + se convierte en x */
+}
+
+details p {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 16px;
+}

@@ -1,0 +1,29 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000000;
+overflow-x: hidden;
+
+
+  /* variables de estilos  */
+  --text-color:#fff;
+  --bg-color:#000000;
+  --button-color:#0D7D1C;
+}
+body, h1, h2, h3, h4, p, main, ul, li, select, option, textarea, input, label{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+/* header styles*/
+.lenguaje-and-section{
+  display: flex;
+  flex-direction: column;
+}
+body{
+  user-select: red  ;
+}
