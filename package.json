@@ -1,7 +1,7 @@
 {
   "name": "medivideoweb",
   "private": true,
-  "homepage": "https://SamRandals.github.io/NetflixClon",
+  "homepage": "https://SamRandals.github.io/mediVideoWeb",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
