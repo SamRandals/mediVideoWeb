@@ -1,5 +1,5 @@
 
-import '../styles/QUestions.css'
+import '../styles/Questions.css'
 
 function PreguntasFrecuentes(){
     
