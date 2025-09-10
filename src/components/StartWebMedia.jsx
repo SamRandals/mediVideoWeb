@@ -1,5 +1,5 @@
 import { useRef  } from 'react';
-import '../styles/StartÑetflix.css'
+import '../styles/StartWebMedia.css'
 
 function EmpezarNetflix(){
       const handleAnimationP = useRef(null);
