@@ -10,7 +10,7 @@ function Header(){
     <header className="header">
         {/* image container */}
         <div className="logo__container">
-        <img src={`${import.meta.env.BASE_URL}/logos/ñetflix.png`} alt="Logo"   className="netflix__logo"/>
+        <img src={`${import.meta.env.BASE_URL}logos/mediaWebLogo.png`} alt="Logo"   className="mediaWeb__logo"/>
         </div>
 
         {/* options container lenguaje and start sesion */}

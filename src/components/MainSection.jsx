@@ -38,12 +38,11 @@ function MainSection() {
   return (
     <main className="Main-section">
       <section className="first-section">
-        <h1>Clon de netflix (con fines educativos)</h1>
+        <h1>Clon de stream pagina famosa (con fines educativos)</h1>
         <h2>Este sitio no recopila información.</h2>
-        <h3>A partir de $18.900. Cancela cuando quieras</h3>
+        
         <p>
-          ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
-          reiniciar tu membresía de Netflix clone ("Este no es netflix real, ten encuenta eso.").
+          ¿Quieres ver mediaWeb ahora mismo? Todo el contenido que imagines al alcance de un click! Aqui mismo y ahora ("Esta web no contiene videos, ten encuenta eso.").
         </p>
 
         <div className="email-input__container">

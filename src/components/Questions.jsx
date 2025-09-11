@@ -7,7 +7,7 @@ function PreguntasFrecuentes(){
       <>
         <section className="faq">
           <details>
-            <summary>¿Qué es Ñetflix?</summary>
+            <summary>¿Qué es mediaWeb?</summary>
             <p>Este es un trabajo para aprender HTML, CSS y JavaScript.</p>
           </details>
 

@@ -33,43 +33,43 @@ function Tendences() {
       {/* /* Contenedor scrolleable */ }
         <div className="tendence__contain" ref={scrollRef}>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 1" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 1" />
             <h1 className="list">1</h1>
           </div>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 2" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 2" />
             <h1 className="list">2</h1>
           </div>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 3" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 3" />
             <h1 className="list">3</h1>
           </div>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 4" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 4" />
             <h1 className="list">4</h1>
           </div>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 5" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 5" />
             <h1 className="list">5</h1>
           </div>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 6" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 6" />
             <h1 className="list">6</h1>
           </div>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 7" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 7" />
             <h1 className="list">7</h1>
           </div>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 8" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 8" />
             <h1 className="list">8</h1>
           </div>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 9" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 9" />
             <h1 className="list">9</h1>
           </div>
           <div className="portadas__peliculas">
-            <img src={`${import.meta.env.BASE_URL}/images/caratula.jpg`} alt="pelicula 10" />
+            <img src={`${import.meta.env.BASE_URL}images/caratula.jpg`} alt="pelicula 10" />
             <h1 className="list">10</h1>
           </div>
         </div>
